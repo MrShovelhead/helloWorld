@@ -6,6 +6,15 @@
         {
             Console.WriteLine("Hello, World!");
             Console.WriteLine("Hej Jakob");
+            addtion();
+            Console.ReadKey();
+
+        }
+        static void addtion()
+        {
+            int sum = 2 + 2;
+            Console.WriteLine(sum);
         }
     }
+   
 }
